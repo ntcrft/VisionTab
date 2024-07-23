@@ -12,6 +12,8 @@
   <strong><a href="https://twitter.com/Broco8Dev">BrocoDev's Twitter</a></strong>
   •
   <strong><a href="https://twitter.com/_kewlaid">KewlAid's Twitter</a></strong>
+
+  <strong>Safari port made by notcraft_. If you have any issues (or just want to flood my DMs), reach out to me on Discord: newnotcraft__</strong>
 </p>
 
 ## Overview
@@ -56,4 +58,4 @@ VisionTab is a VisionOS styled New Tab for Chromium based web browsers and Safar
 
 <a href="https://github.com/kewla1d"><img src="https://img.shields.io/static/v1?style=social&message=Developer&logo=github&logoColor=000000&label=KewlAid" /></a>
 
-Ported to Safari/WebKit by notcraft_ (ntcrft)
+<a href="https://github.com/ntcrft"><img src="https://img.shields.io/static/v1?style=social&message=Developer&logo=github&logoColor=000000&label=ntcrft" /></a>
