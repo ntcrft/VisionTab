@@ -7,7 +7,7 @@
 <p align="left">
   <strong><a href="https://github.com/Broco8Dev/VisionTab">Original Version</a></strong>
   
-  <strong><a href="https://github.com/Broco8Dev/VisionTab/releases/latest">Download</a></strong>
+  <strong><a href="https://github.com/ntcrft/VisionTab-safari/tags">Download</a></strong>
   •
   <strong><a href="https://discord.gg/yx35bgRxF4">Discord</a></strong>
   •
