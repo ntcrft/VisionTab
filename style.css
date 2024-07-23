@@ -219,6 +219,7 @@ input[type="range"]::-webkit-slider-thumb {
     background: var(--base-background);
     box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     gap: 20px;
 }
@@ -283,6 +284,7 @@ input[type="range"]::-webkit-slider-thumb {
     background: var(--sb-background);
     box-shadow: 1px 1.5px 4px 0px rgba(0, 0, 0, 0.08) inset, 1px 1.5px 4px 0px rgba(0, 0, 0, 0.10) inset;
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     font-size: 18px;
     font-weight: 500;
@@ -343,6 +345,7 @@ input[type="range"]::-webkit-slider-thumb {
     background: var(--base-background);
     box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
 }
 
@@ -424,6 +427,7 @@ input[type="range"]::-webkit-slider-thumb {
     background: var(--base-background);
     box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     outline:none;
     font-size: 16px;
@@ -452,6 +456,7 @@ input[type="range"]::-webkit-slider-thumb {
     background: var(--base-background);
     box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     outline:none;
     font-size: 16px;
@@ -532,6 +537,7 @@ input[type="range"]::-webkit-slider-thumb {
     background: var(--base-background);
     box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     outline:none;
     overflow-x: hidden;
@@ -645,6 +651,7 @@ input[type="range"]::-webkit-slider-thumb {
     background: var(--base-background);
     box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     outline:none;
     overflow-x: hidden;
@@ -689,6 +696,7 @@ input[type="range"]::-webkit-slider-thumb {
     background: var(--base-background);
     box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     outline:none;
     overflow-x: hidden;
@@ -751,6 +759,7 @@ input[type="range"]::-webkit-slider-thumb {
     background: var(--base-background);
     box-shadow: var(--base-shadow);
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     outline:none;
 
@@ -866,6 +875,7 @@ input[type="range"]::-webkit-slider-thumb {
     background-blend-mode: luminosity, color-burn;
     box-shadow: 1px 1.5px 4px 0px rgba(0, 0, 0, 0.08) inset, 1px 1.5px 4px 0px rgba(0, 0, 0, 0.10) inset;
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border: none;
     transition: all 0.5s ease;
@@ -918,6 +928,7 @@ input[type="range"]::-webkit-slider-thumb {
     background-blend-mode: luminosity, color-burn;
     box-shadow: 1px -1.5px 4px 0px rgba(0, 0, 0, 0.08) inset, 1px -1.5px 4px 0px rgba(0, 0, 0, 0.10) inset;
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border: none;
     font-size: 13.5px;
@@ -947,6 +958,7 @@ input[type="range"]::-webkit-slider-thumb {
     position: fixed;
     top: -5px;
     left: -5px;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
 }
 
@@ -968,6 +980,7 @@ input[type="range"]::-webkit-slider-thumb {
     background-blend-mode: luminosity, color-burn;
     box-shadow: 1px -1.5px 4px 0px rgba(0, 0, 0, 0.08) inset, 1px -1.5px 4px 0px rgba(0, 0, 0, 0.10) inset;
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border: none;
     font-size: 13.5px;
@@ -989,6 +1002,7 @@ input[type="range"]::-webkit-slider-thumb {
     background-blend-mode: luminosity, color-burn;
     box-shadow: 1px -1.5px 4px 0px rgba(0, 0, 0, 0.08) inset, 1px -1.5px 4px 0px rgba(0, 0, 0, 0.10) inset;
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border: none;
     font-size: 13.5px;
@@ -1049,6 +1063,7 @@ input[type="range"]::-webkit-slider-thumb {
     background-blend-mode: luminosity, color-burn;
     box-shadow: 1px 1.5px 4px 0px rgba(0, 0, 0, 0.08) inset, 1px 1.5px 4px 0px rgba(0, 0, 0, 0.10) inset;
     background-blend-mode: luminosity;
+    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border: none;
 }
