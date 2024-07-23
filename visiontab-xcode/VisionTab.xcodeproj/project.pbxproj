@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B7916F2C506C5100971F9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7916E2C506C5100971F9A /* AppDelegate.swift */; };
+		04B791722C506C5100971F9A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 04B791712C506C5100971F9A /* Base */; };
+		04B791842C506C5100971F9A /* VisionTab Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04B791832C506C5100971F9A /* VisionTab Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04B7918B2C506C5100971F9A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 04B7914E2C506C4F00971F9A /* Base */; };
+		04B7918D2C506C5100971F9A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B7914F2C506C4F00971F9A /* Icon.png */; };
+		04B7918F2C506C5100971F9A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 04B791502C506C4F00971F9A /* Style.css */; };
+		04B791912C506C5100971F9A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 04B791512C506C4F00971F9A /* Script.js */; };
+		04B791932C506C5100971F9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B791522C506C4F00971F9A /* ViewController.swift */; };
+		04B791952C506C5100971F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B791532C506C5100971F9A /* Assets.xcassets */; };
+		04B791972C506C5100971F9A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B791552C506C5100971F9A /* SafariWebExtensionHandler.swift */; };
+		04B791B12C506C5100971F9A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B791A92C506C5100971F9A /* icon.png */; };
+		04B791B22C506C5100971F9A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 04B791AA2C506C5100971F9A /* index.html */; };
+		04B791B32C506C5100971F9A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 04B791AB2C506C5100971F9A /* LICENSE */; };
+		04B791B42C506C5100971F9A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04B791AC2C506C5100971F9A /* README.md */; };
+		04B791B52C506C5100971F9A /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 04B791AD2C506C5100971F9A /* style.css */; };
+		04B791B62C506C5100971F9A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 04B791AE2C506C5100971F9A /* manifest.json */; };
+		04B791B72C506C5100971F9A /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 04B791AF2C506C5100971F9A /* fonts */; };
+		04B791B82C506C5100971F9A /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 04B791B02C506C5100971F9A /* assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B791852C506C5100971F9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B791472C506C4F00971F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B791822C506C5100971F9A;
+			remoteInfo = "VisionTab Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04B791A42C506C5100971F9A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04B791842C506C5100971F9A /* VisionTab Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04B7914E2C506C4F00971F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		04B7914F2C506C4F00971F9A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		04B791502C506C4F00971F9A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		04B791512C506C4F00971F9A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		04B791522C506C4F00971F9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04B791532C506C5100971F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B791552C506C5100971F9A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		04B7916C2C506C5100971F9A /* VisionTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B7916E2C506C5100971F9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04B791712C506C5100971F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B791732C506C5100971F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B791742C506C5100971F9A /* VisionTab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VisionTab.entitlements; sourceTree = "<group>"; };
+		04B791832C506C5100971F9A /* VisionTab Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VisionTab Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B791882C506C5100971F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B791892C506C5100971F9A /* VisionTab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VisionTab.entitlements; sourceTree = "<group>"; };
+		04B791A92C506C5100971F9A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../Desktop/VisionTab/icon.png; sourceTree = "<group>"; };
+		04B791AA2C506C5100971F9A /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = ../../Desktop/VisionTab/index.html; sourceTree = "<group>"; };
+		04B791AB2C506C5100971F9A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../Desktop/VisionTab/LICENSE; sourceTree = "<group>"; };
+		04B791AC2C506C5100971F9A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../Desktop/VisionTab/README.md; sourceTree = "<group>"; };
+		04B791AD2C506C5100971F9A /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = style.css; path = ../../Desktop/VisionTab/style.css; sourceTree = "<group>"; };
+		04B791AE2C506C5100971F9A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../Desktop/VisionTab/manifest.json; sourceTree = "<group>"; };
+		04B791AF2C506C5100971F9A /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = ../../Desktop/VisionTab/fonts; sourceTree = "<group>"; };
+		04B791B02C506C5100971F9A /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../Desktop/VisionTab/assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B791692C506C5100971F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B791802C506C5100971F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B791462C506C4F00971F9A = {
+			isa = PBXGroup;
+			children = (
+				04B7914B2C506C4F00971F9A /* Shared (App) */,
+				04B791542C506C5100971F9A /* Shared (Extension) */,
+				04B7916D2C506C5100971F9A /* macOS (App) */,
+				04B791872C506C5100971F9A /* macOS (Extension) */,
+				04B7915B2C506C5100971F9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B7914B2C506C4F00971F9A /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				04B791522C506C4F00971F9A /* ViewController.swift */,
+				04B791532C506C5100971F9A /* Assets.xcassets */,
+				04B7914C2C506C4F00971F9A /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		04B7914C2C506C4F00971F9A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04B7914D2C506C4F00971F9A /* Main.html */,
+				04B7914F2C506C4F00971F9A /* Icon.png */,
+				04B791502C506C4F00971F9A /* Style.css */,
+				04B791512C506C4F00971F9A /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04B791542C506C5100971F9A /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				04B791A82C506C5100971F9A /* Resources */,
+				04B791552C506C5100971F9A /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		04B7915B2C506C5100971F9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B7916C2C506C5100971F9A /* VisionTab.app */,
+				04B791832C506C5100971F9A /* VisionTab Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B7916D2C506C5100971F9A /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				04B7916E2C506C5100971F9A /* AppDelegate.swift */,
+				04B791702C506C5100971F9A /* Main.storyboard */,
+				04B791732C506C5100971F9A /* Info.plist */,
+				04B791742C506C5100971F9A /* VisionTab.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		04B791872C506C5100971F9A /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				04B791882C506C5100971F9A /* Info.plist */,
+				04B791892C506C5100971F9A /* VisionTab.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		04B791A82C506C5100971F9A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04B791A92C506C5100971F9A /* icon.png */,
+				04B791AA2C506C5100971F9A /* index.html */,
+				04B791AB2C506C5100971F9A /* LICENSE */,
+				04B791AC2C506C5100971F9A /* README.md */,
+				04B791AD2C506C5100971F9A /* style.css */,
+				04B791AE2C506C5100971F9A /* manifest.json */,
+				04B791AF2C506C5100971F9A /* fonts */,
+				04B791B02C506C5100971F9A /* assets */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B7916B2C506C5100971F9A /* VisionTab (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B791A52C506C5100971F9A /* Build configuration list for PBXNativeTarget "VisionTab (macOS)" */;
+			buildPhases = (
+				04B791682C506C5100971F9A /* Sources */,
+				04B791692C506C5100971F9A /* Frameworks */,
+				04B7916A2C506C5100971F9A /* Resources */,
+				04B791A42C506C5100971F9A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B791862C506C5100971F9A /* PBXTargetDependency */,
+			);
+			name = "VisionTab (macOS)";
+			productName = "VisionTab (macOS)";
+			productReference = 04B7916C2C506C5100971F9A /* VisionTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B791822C506C5100971F9A /* VisionTab Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B791A12C506C5100971F9A /* Build configuration list for PBXNativeTarget "VisionTab Extension (macOS)" */;
+			buildPhases = (
+				04B7917F2C506C5100971F9A /* Sources */,
+				04B791802C506C5100971F9A /* Frameworks */,
+				04B791812C506C5100971F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VisionTab Extension (macOS)";
+			productName = "VisionTab Extension (macOS)";
+			productReference = 04B791832C506C5100971F9A /* VisionTab Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B791472C506C4F00971F9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					04B7916B2C506C5100971F9A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					04B791822C506C5100971F9A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 04B7914A2C506C4F00971F9A /* Build configuration list for PBXProject "VisionTab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B791462C506C4F00971F9A;
+			productRefGroup = 04B7915B2C506C5100971F9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B7916B2C506C5100971F9A /* VisionTab (macOS) */,
+				04B791822C506C5100971F9A /* VisionTab Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B7916A2C506C5100971F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B7918D2C506C5100971F9A /* Icon.png in Resources */,
+				04B7918F2C506C5100971F9A /* Style.css in Resources */,
+				04B791722C506C5100971F9A /* Base in Resources */,
+				04B791912C506C5100971F9A /* Script.js in Resources */,
+				04B791952C506C5100971F9A /* Assets.xcassets in Resources */,
+				04B7918B2C506C5100971F9A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B791812C506C5100971F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B791B32C506C5100971F9A /* LICENSE in Resources */,
+				04B791B82C506C5100971F9A /* assets in Resources */,
+				04B791B12C506C5100971F9A /* icon.png in Resources */,
+				04B791B52C506C5100971F9A /* style.css in Resources */,
+				04B791B72C506C5100971F9A /* fonts in Resources */,
+				04B791B42C506C5100971F9A /* README.md in Resources */,
+				04B791B62C506C5100971F9A /* manifest.json in Resources */,
+				04B791B22C506C5100971F9A /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B791682C506C5100971F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B791932C506C5100971F9A /* ViewController.swift in Sources */,
+				04B7916F2C506C5100971F9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B7917F2C506C5100971F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B791972C506C5100971F9A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B791862C506C5100971F9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B791822C506C5100971F9A /* VisionTab Extension (macOS) */;
+			targetProxy = 04B791852C506C5100971F9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B7914D2C506C4F00971F9A /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B7914E2C506C4F00971F9A /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		04B791702C506C5100971F9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B791712C506C5100971F9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B791982C506C5100971F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04B791992C506C5100971F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		04B791A22C506C5100971F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/VisionTab.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "VisionTab Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.VisionTab.Extension;
+				PRODUCT_NAME = "VisionTab Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04B791A32C506C5100971F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/VisionTab.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "VisionTab Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.VisionTab.Extension;
+				PRODUCT_NAME = "VisionTab Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04B791A62C506C5100971F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/VisionTab.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = VisionTab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.VisionTab;
+				PRODUCT_NAME = VisionTab;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04B791A72C506C5100971F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/VisionTab.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = VisionTab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.VisionTab;
+				PRODUCT_NAME = VisionTab;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B7914A2C506C4F00971F9A /* Build configuration list for PBXProject "VisionTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B791982C506C5100971F9A /* Debug */,
+				04B791992C506C5100971F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B791A12C506C5100971F9A /* Build configuration list for PBXNativeTarget "VisionTab Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B791A22C506C5100971F9A /* Debug */,
+				04B791A32C506C5100971F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B791A52C506C5100971F9A /* Build configuration list for PBXNativeTarget "VisionTab (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B791A62C506C5100971F9A /* Debug */,
+				04B791A72C506C5100971F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B791472C506C4F00971F9A /* Project object */;
+}
